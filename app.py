@@ -31,6 +31,7 @@ with st.echo():
     options = Options()
     options.add_argument("--disable-gpu")
     options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
 
     driver = get_driver()
     driver.get("https://www.milanuncios.com/anuncios-usuario/amando-10403766.htm?pagina=1&limite=15&origin=pagination")
